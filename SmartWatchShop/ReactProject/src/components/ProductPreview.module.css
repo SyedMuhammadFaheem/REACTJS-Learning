@@ -1,0 +1,67 @@
+body{
+    font-family:'Source Sans Pro', sans-serif;
+ }
+
+.ProductPreview{
+    width:50%; 
+    position:relative;
+    top:0;
+  }
+  
+  
+  .ProductPreview > img{
+    width:100%;
+    
+  }
+
+  .TimeZone{
+    position:absolute;
+    bottom:38px;
+    left:90px;
+    margin:0;
+    font-size:15px;
+  }
+  
+  
+  .TimeSection{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:white;
+    font-size:48px;
+    font-weight:600;
+  }
+  
+  .HeartBeatSection{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:white;
+    font-size:48px;
+    font-weight:600;
+  }
+  
+  .HeartBeatSection > i{
+    color:red;
+    animation: beat 1s infinite;
+  }
+  
+  @keyframes beat {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.2, 1.2);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+  }
+
+  .HeartBeatSection > p{
+    margin-top: 16px;
+  }
