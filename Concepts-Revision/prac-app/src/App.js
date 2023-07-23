@@ -1,23 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
-import Greet from './components/Greet';
-import Welcome from './components/Welcome';
-import HelloJS from './components/HelloJS';
-import Hello from './components/Hello';
-import GreetProp from './components/GreetProp';
-import GreetPropClass from './components/GreetPropClass';
-import Message from './components/Message';
-import Counter from './components/Counter';
-import FunctionClick from './components/FunctionClick';
-import ClassClick from './components/ClassClick';
-import EventBind from './components/EventBind';
+import Greet from './components/FunctionalComponents/Greet';
+import Welcome from './components/ClassComponents/Welcome';
+import HelloJS from './components/JSX-vs-JS/HelloJS';
+import Hello from './components/JSX-vs-JS/Hello';
+import GreetProp from './components/Props/GreetProp';
+import GreetPropClass from './components/Props/GreetPropClass';
+import Message from './components/ClassState/Message';
+import Counter from './components/ClassUseState/Counter';
+import FunctionClick from './components/EventHandeling/FunctionClick';
+import ClassClick from './components/EventHandeling/ClassClick';
+import EventBind from './components/EventBinding/EventBind';
+import ParentComponent from './components/MethodsProps/ParentComponent';
+import UserGreeting from './components/ConditionalRendering/UserGreeting';
 
 
 function App() {
 
   return (
     <div className="App">
-      <EventBind/>
+      <UserGreeting/>
+      {/* <ParentComponent/> */}
+      {/* <EventBind/> */}
       {/* <ClassClick/>
       <FunctionClick/> */}
       {/* <Message/>
