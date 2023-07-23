@@ -6,19 +6,30 @@ import HelloJS from './components/HelloJS';
 import Hello from './components/Hello';
 import GreetProp from './components/GreetProp';
 import GreetPropClass from './components/GreetPropClass';
+import Message from './components/Message';
+import Counter from './components/Counter';
+import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
+import EventBind from './components/EventBind';
 
 
 function App() {
+
   return (
     <div className="App">
-      <Greet/>
+      <EventBind/>
+      {/* <ClassClick/>
+      <FunctionClick/> */}
+      {/* <Message/>
+      <Counter/> */}
+      {/* <Greet/>
       <Welcome/>
       <Hello/>
       <HelloJS/>
       <GreetProp name='Ishaq Prop'/>
       <GreetPropClass name='Ishaq Prop Class'>
         Inside the tag as child
-      </GreetPropClass>
+      </GreetPropClass> */}
     </div>
   );
 }
